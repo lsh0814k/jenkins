@@ -59,7 +59,7 @@ pipeline {
         }
         
         // github checkout 설정
-        // Pipeline script from SCM 으로 지정하면 자동으로 체크아웃을 하기 때문에 필요 없다.
+        // Jenkinsfile 을 Repo 에서 가져오도록 설정할 경우, 별도의 Checkout Stage 불필요
         //stage('Checkout') {
         //    steps {
         //        checkout scmGit(
